@@ -32,7 +32,7 @@
   border-radius: 24px;
   background: #C6E4D6;
   padding: 80px 100px;
-  margin: 25px;
+  margin:10px 80px;
 }
 .hero-subtitle{
   color :rgba(14, 14, 14, 0.50);
@@ -64,4 +64,41 @@ font-weight: 600;
 }
 .bangladesh-hero {
   padding-top: 50px;
+} 
+/* section-2 pillars of bangladesh */
+
+h2{
+  color: #0E0E0E;
+  font-family: "Fira Sans";
+  font-size: 35px;
+  font-weight: 700;
+  padding: 25px;
+  margin: 10px 80px;
+}
+.bangladesh-pillars{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 50px;
+ margin:10px 70px;
+}
+.pillar{
+  width: 280px;
+  border-radius: 16px;
+  background-color:rgba(241, 241, 243, 1);
+  padding: 10px;
+}
+/* shared style */
+.description{
+  color: rgba(14, 14, 14, 0.70);
+  font-family: "Fira Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 20px; 
+}
+h5{
+  color: rgba(14, 14, 14, 0.80);
+  font-family: "Fira Sans";
+font-size: 20px;
+font-weight: 700;
+padding: 12px 0;
 }
