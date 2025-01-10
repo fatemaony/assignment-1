@@ -84,6 +84,7 @@ h2{
 .pillar{
   width: 280px;
   border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.70);
   background-color:rgba(241, 241, 243, 1);
   padding: 10px;
 }
@@ -102,3 +103,66 @@ font-size: 20px;
 font-weight: 700;
 padding: 12px 0;
 }
+button{
+  display: flex;
+padding: 11px 20px;
+justify-content: center;
+align-items: center;
+gap: 48px;
+border-radius: 8px;
+border: none;
+color:rgba(255, 255, 255, 1);
+font-size: 16px;
+margin: 20px 0;
+}
+/* section-3-vision of future */
+.Vision-of-Future{
+
+}
+.text{
+  width: 1200px;
+  padding: 0 90px;
+}
+.vision{
+  justify-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+ 
+}
+.digital{
+  background-color: rgba(84, 144, 245, 0.20);
+  border-radius: 16px;
+border: 0px solid #5490F5;
+width: 400px;
+}
+.energy{
+  border-radius: 16px;
+border: 0px solid #09A15C;
+background: #C6E4D6;
+width: 400px;
+}
+.Modern{
+  border-radius: 16px;
+border: 0px solid #FFC239;
+background: #F7EBCF;
+width: 400px;
+}
+.blue{
+  background-color: #5490F5;
+}
+.green{
+  background: #09A15C;
+}
+.yellow{
+  background: #FFC239;
+}
+/* section-4-muhammad yunus */
+.Muhammad-Yunus{
+  background:#FFF, url(..//assets/quote-bg.png)100%;
+  border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+padding:10px 20px;
+margin:10px 80px;
+}
+/* section opinion */
